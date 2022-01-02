@@ -54,5 +54,9 @@ releases:
   name: local-external-secrets
   values:
   - jx-values.yaml
+- chart: jx-app-owasp-zap
+  name: jx-app-owasp-zap
+- chart: jx-app-sonar-scanner
+  name: jx-app-sonar-scanner
 templates: {}
 renderedvalues: {}
